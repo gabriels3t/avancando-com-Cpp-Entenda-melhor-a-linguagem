@@ -42,7 +42,7 @@ int main () {
         cout << "Voce perdeu! Tente novamente!" << endl;
     }
     else{
-        cout << "Parabens! Você acertou a palavra secreta!" << endl;
+        cout << "Parabens! Voce acertou a palavra secreta!" << endl;
 
         cout << "Voce deseja adicionar uma nova palavra ao banco? (S/N) ";
         char resposta;

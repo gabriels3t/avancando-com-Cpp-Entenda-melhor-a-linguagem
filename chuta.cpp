@@ -14,10 +14,10 @@ void chuta(){
     chutou[chute] = true;
 
     if(letra_existe(chute)){
-        std::cout << "Você acertou! Seu chute está na palavra." << std::endl;
+        std::cout << "Voce acertou! Seu chute esta na palavra." << std::endl;
     }
     else{
-        std::cout << "Você errou! Seu chute não está na palavra." << std::endl;
+        std::cout << "Voce errou! Seu chute nao esta na palavra." << std::endl;
         chutes_errados.push_back(chute);
     }
     std::cout << std::endl;
